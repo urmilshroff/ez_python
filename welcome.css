@@ -29,8 +29,11 @@ h2
 	color: soft black;
 }
 
-table{
-   border: 1px black;
+table {
+    border: 0px;
+		background:#FFFFFF;
+		width: 100%;
+		padding: 0;
 }
 
 .outerLink
