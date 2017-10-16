@@ -1,13 +1,13 @@
 body
 {
-font-family: fonts/arvo-rg.ttf;
+font-family: arvo;
 font-size: 40px;
 background-color: #263238; /*soft black*/
 }
 
 h1
 {
-font-family: fonts/arvo-bold.ttf;
+font-family: arvo;
 font-size: 100px;
 color: #00C853; /*sea green*/
 text-align: center;
@@ -15,7 +15,7 @@ text-align: center;
 
 h2
 {
-font-family: fonts/arvo-bold.ttf;
+font-family: arvo;
 font-size: 40px;
 color: #00C853; /*sea green*/
 text-align: center;
@@ -23,9 +23,10 @@ text-align: center;
 
 p
 {
-font-family: fonts/arvo-rg.ttf;
+font-family: arvo;
 font-size: 25px;
 color: #00C853; /*sea green*/
+text-align: center;
 }
 
 
