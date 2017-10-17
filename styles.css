@@ -1,13 +1,13 @@
 body
 {
-font-family: 'Arvo', serif;
+font-family: arvo;
 font-size: 30px;
-background-color: #263238; /*soft black*/
+background-color: #263238; /*blue black*/ /*only this works...*/
 }
 
 h1
 {
-font-family: 'Arvo', serif;
+font-family: arvo; /*all this does not work!*/
 font-size: 60px;
 color: #00C853; /*sea green*/
 text-align: center;
@@ -15,7 +15,7 @@ text-align: center;
 
 h2
 {
-font-family: 'Arvo', serif;
+font-family: arvo;
 font-size: 40px;
 color: #00C853; /*sea green*/
 text-align: center;
@@ -23,38 +23,38 @@ text-align: center;
 
 p
 {
-font-family: 'Arvo', serif;
+font-family: arvo;
 font-size: 20px;
-color: #00C853; /*sea green*/
+color: #ECEFF1; /*almost white*/
 text-align: center;
 }
 
 br
 {
-font-family: 'Arvo', serif;
+font-family: arvo;
 font-size: 60px;
-color: #00C853; /*sea green*/
+color: #ECEFF1; /*almost white*/
 text-align: center;
 }
 
 button
 {
-font-family: 'Arvo', serif;
+font-family: arvo;
 font-size: 60px;
-color: #00C853; /*sea green*/
+color: #ECEFF1; /*almost white*/
 text-align: center;
 }
 
 center
 {
-font-family: 'Arvo', serif;
+font-family: arvo;
 font-size: 20px;
 color: #ECEFF1
 }
 
 @media (max-width: 500px)
 {
-p1
+body
 {
 color: #9FA8DA; /*some shit*/
 }
@@ -66,3 +66,14 @@ border: 0px;
 width: 100%;
 padding: 0;
 }
+
+/*font-family: 'Arvo', serif;
+font-family: 'Rubik', sans-serif;
+font-family: 'Quicksand', sans-serif;
+font-family: 'Inconsolata', monospace;
+font-family: 'Nunito', sans-serif;*/
+
+
+/*blue black: #263238*/
+/*sea green: #00C853*/
+/*almost white: #ECEFF1*/
