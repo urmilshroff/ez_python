@@ -1,13 +1,13 @@
 body
 {
-font-family: /fonts/arvo-rg.ttf;
+font-family: 'Arvo', serif;
 font-size: 30px;
 background-color: #263238; /*soft black*/
 }
 
 h1
 {
-font-family: /fonts/arvo-rg.ttf;
+font-family: 'Arvo', serif;
 font-size: 60px;
 color: #00C853; /*sea green*/
 text-align: center;
@@ -15,7 +15,7 @@ text-align: center;
 
 h2
 {
-font-family: /fonts/arvo-rg.ttf;
+font-family: 'Arvo', serif;
 font-size: 40px;
 color: #00C853; /*sea green*/
 text-align: center;
@@ -23,7 +23,7 @@ text-align: center;
 
 p
 {
-font-family: /fonts/arvo-rg.ttf;
+font-family: 'Arvo', serif;
 font-size: 20px;
 color: #00C853; /*sea green*/
 text-align: center;
@@ -31,7 +31,7 @@ text-align: center;
 
 br
 {
-font-family: /fonts/arvo-rg.ttf;
+font-family: 'Arvo', serif;
 font-size: 60px;
 color: #00C853; /*sea green*/
 text-align: center;
@@ -39,7 +39,7 @@ text-align: center;
 
 button
 {
-font-family: /fonts/arvo-rg.ttf;
+font-family: 'Arvo', serif;
 font-size: 60px;
 color: #00C853; /*sea green*/
 text-align: center;
@@ -47,7 +47,7 @@ text-align: center;
 
 center
 {
-font-family: /fonts/arvo-rg.ttf;
+font-family: 'Arvo', serif;
 font-size: 20px;
 color: #ECEFF1
 }
