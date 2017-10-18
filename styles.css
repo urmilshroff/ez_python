@@ -9,7 +9,7 @@ h1
 {
 font-family: arvo; /*all this does not work!*/
 font-size: 60px;
-color: #00C853; /*sea green*/
+color: #4CAF50; /*sea green*/
 text-align: center;
 }
 
@@ -17,7 +17,7 @@ h2
 {
 font-family: arvo;
 font-size: 40px;
-color: #00C853; /*sea green*/
+color: #4CAF50; /*sea green*/
 text-align: center;
 }
 
@@ -75,5 +75,5 @@ font-family: 'Nunito', sans-serif;*/
 
 
 /*blue black: #263238*/
-/*sea green: #00C853*/
+/*sea green: #4CAF50*/
 /*almost white: #ECEFF1*/
