@@ -2,14 +2,14 @@ body
 {
 font-family: arvo;
 font-size: 30px;
-background-color: #263238; /*blue black*/ /*only this works...*/
+background-color: #263238; /* blue black */ /* only this works... */
 }
 
 h1
 {
-font-family: arvo; /*all this does not work!*/
+font-family: arvo; /* all this does not work! */
 font-size: 60px;
-color: #4CAF50; /*sea green*/
+color: #4CAF50; /* green */
 text-align: center;
 }
 
@@ -17,7 +17,7 @@ h2
 {
 font-family: arvo;
 font-size: 40px;
-color: #4CAF50; /*sea green*/
+color: #4CAF50; /* green */
 text-align: center;
 }
 
@@ -25,7 +25,7 @@ p
 {
 font-family: arvo;
 font-size: 20px;
-color: #ECEFF1; /*almost white*/
+color: #ECEFF1; /* almost white */
 text-align: center;
 }
 
@@ -33,7 +33,7 @@ br
 {
 font-family: arvo;
 font-size: 60px;
-color: #ECEFF1; /*almost white*/
+color: #ECEFF1; /* almost white */
 text-align: center;
 }
 
@@ -41,7 +41,7 @@ button
 {
 font-family: arvo;
 font-size: 60px;
-color: #ECEFF1; /*almost white*/
+color: #ECEFF1; /* almost white */
 text-align: center;
 }
 
@@ -56,7 +56,7 @@ color: #ECEFF1
 {
 body
 {
-color: #9FA8DA; /*some shit*/
+color: #9FA8DA; /* some shit */
 }
 }
 
@@ -67,13 +67,13 @@ width: 100%;
 padding: 0;
 }
 
-/*font-family: 'Arvo', serif;
+/* font-family: 'Arvo', serif;
 font-family: 'Rubik', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Inconsolata', monospace;
-font-family: 'Nunito', sans-serif;*/
+font-family: 'Nunito', sans-serif; */
 
 
-/*blue black: #263238*/
-/*sea green: #4CAF50*/
-/*almost white: #ECEFF1*/
+/* blue black: #263238 */
+/* green: #4CAF50 */
+/* almost white: #ECEFF1 */
