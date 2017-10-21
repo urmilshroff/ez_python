@@ -40,12 +40,11 @@ width: 100%;
 padding: 0;
 }
 
-@media (max-width: 500px)
+@media (max-width: 400px) /* this is the @media query used to optimize the page for mobile */
 {
-body
-{
-background-color: #ECEFF1; /* some shit */
-}
+
+
+
 }
 
 /* below font names are for reference only */
