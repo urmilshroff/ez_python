@@ -1,35 +1,39 @@
+/* ONLY SOME STUFF WORKS IN EXTERNAL STYLESHEET, IDK WHY!! */
+
 body
 {
-font-family: arvo;
-font-size: 30px;
-background-color: #263238; /* just black */
+background-color: #263238; /* quite black */
 }
 
-h1
+h1 /* for main headings & titles */
 {
-font-family: arvo;
-font-size: 60px;
 color: #4CAF50; /* md green */
 text-align: center;
+font-style: normal;
 }
 
-h2
+h2 /* for subtitles */
 {
-font-family: arvo;
-font-size: 40px;
 color: #4CAF50; /* md green */
 text-align: center;
+font-style: normal;
 }
 
-p,br,button,center
+h3 /* for regular text */
 {
-font-family: arvo;
-font-size: 20px;
 color: #ECEFF1; /* almost white */
 text-align: center;
+font-style: normal;
 }
 
-table
+p,br,button,center /* for timepass */
+{
+color: #ECEFF1; /* almost white */
+text-align: center;
+font-style: normal;
+}
+
+table /* dining table */
 {
 border: 0px;
 width: 100%;
@@ -52,7 +56,7 @@ font-family: 'Quicksand', sans-serif;
 font-family: 'Inconsolata', monospace;
 font-family: 'Nunito', sans-serif; */
 
-/* three main colors of our site are: */
-/* just black: #263238 */
-/* md green: #4CAF50 */
-/* almost white: #ECEFF1 */
+/* 3 main colors of our site are:
+quite black: #263238
+md green: #4CAF50
+almost white: #ECEFF1 */
