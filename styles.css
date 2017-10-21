@@ -2,14 +2,14 @@ body
 {
 font-family: arvo;
 font-size: 30px;
-background-color: #263238; /* blue black */ /* only this works... */
+background-color: #263238; /* just black */
 }
 
 h1
 {
-font-family: arvo; /* all this does not work! */
+font-family: arvo;
 font-size: 60px;
-color: #4CAF50; /* green */
+color: #4CAF50; /* md green */
 text-align: center;
 }
 
@@ -17,47 +17,16 @@ h2
 {
 font-family: arvo;
 font-size: 40px;
-color: #4CAF50; /* green */
+color: #4CAF50; /* md green */
 text-align: center;
 }
 
-p
+p,br,button,center
 {
 font-family: arvo;
 font-size: 20px;
 color: #ECEFF1; /* almost white */
 text-align: center;
-}
-
-br
-{
-font-family: arvo;
-font-size: 60px;
-color: #ECEFF1; /* almost white */
-text-align: center;
-}
-
-button
-{
-font-family: arvo;
-font-size: 60px;
-color: #ECEFF1; /* almost white */
-text-align: center;
-}
-
-center
-{
-font-family: arvo;
-font-size: 20px;
-color: #ECEFF1
-}
-
-@media (max-width: 500px)
-{
-body
-{
-color: #9FA8DA; /* some shit */
-}
 }
 
 table
@@ -67,13 +36,23 @@ width: 100%;
 padding: 0;
 }
 
+@media (max-width: 500px)
+{
+body
+{
+background-color: #ECEFF1; /* some shit */
+}
+}
+
+/* below font names are for reference only */
+
 /* font-family: 'Arvo', serif;
 font-family: 'Rubik', sans-serif;
 font-family: 'Quicksand', sans-serif;
 font-family: 'Inconsolata', monospace;
 font-family: 'Nunito', sans-serif; */
 
-
-/* blue black: #263238 */
-/* green: #4CAF50 */
+/* three main colors of our site are: */
+/* just black: #263238 */
+/* md green: #4CAF50 */
 /* almost white: #ECEFF1 */
