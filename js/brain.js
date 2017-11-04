@@ -1,12 +1,12 @@
-function logo_click()
+function python_org()
 {
 window.open("https://www.python.org");
 }
 
-/*function mouse_over()
+function mouse_over()
 {
 document.write("onmouseover() called");
-}*/
+}
 
 function button_click()
 {
