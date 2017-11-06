@@ -21,7 +21,7 @@ document.write("A button was clicked");
 function account_validator()
 {
 
-document.write("Form validated!"); //test to check if button works
+document.write("If you're seeing this the first time you clicked the button (AFTER INPUTTING YOUR NAME), then let me know!"); //test to check if button works
 
 var fname=document.account.fname;
 var sname=document.account.sname;
