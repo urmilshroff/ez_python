@@ -22,13 +22,12 @@ function account_validator()
 {
 
 document.write("If you're seeing this the first time you clicked the button (AFTER INPUTTING YOUR NAME), then let me know!"); //test to check if button works
+document.write(fname);
 
 var fname=document.account.fname;
 var sname=document.account.sname;
 var username=document.account.username;
 var email=document.account.email;
 var password=document.account.password;
-
-
 
 }
