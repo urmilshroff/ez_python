@@ -14,11 +14,12 @@
 <link rel="stylesheet" type="text/css" href="css/about.css"> -->
 
 <!--following link to Google APIs-->
+<link href="https://fonts.googleapis.com/css?family=Montserrat+Alternates" rel="stylesheet">
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-orange.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Inconsolata|Nunito|Quicksand|Rubik">
 
-<script src="js/brain.js"> </script>
+<script src="js/brainjs"> </script>
 
 <!--following link to Google APIs-->
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"> </script>
@@ -42,14 +43,42 @@ line-height: 150%;
 h3 /* for regular text */
 {
 font-family: inconsolata;
-font-size: 20px;
+font-size: 30px;
 line-height: 80%;
 }
 
+form
+{
+	 display: inline-block;
+		margin-left: 50px;
+		margin-right: auto;
+		text-align: left;
+		padding: 20px;
+		;
+}
+
+font
+{
+	color: white ;
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 25px;
+	line-height: 35px ; 
+	
+	
+}
+
+
+
 @media (max-width: 400px) /* this is the @media query used to optimize the page for mobile */
 {
-
-
+	
+	font
+   {
+	font-size: 15px;
+	line-height: 25px ; 
+	
+	
+	}
 
 }
 
@@ -62,23 +91,11 @@ line-height: 80%;
 <h1> Question 1: </h1>
 <h2> > What is Python? </h2>
 
-<font color="white"> Gender: <input type="radio" name="q1" value="1"> A snake <input type="radio" name="q1" value="2"> A high level programming language <input type="radio" name="q1" value="3"> Taylor Swift </font>
-<input type="submit" value="Send" name="submit_button">
+<form name="q1" onsubmit="answer_checker(2)">
 
-<!-- <font color="#CFD8DC">
-<p> <p> <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
-<input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
-<span class="mdl-radio__label"> A high level programming language </span>
-</label>
-
-<p> <p> <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
-<input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
-<span class="mdl-radio__label"> A scary slimy snake </span>
-</label>
-
-<center> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='01.html'"> <font color="#ECEFF1"> Check </font> </center> </button>
-
-<font> -->
+<font > Answer: <br><br> <input type="radio" name="q" value="1"> A snake <br> <input type="radio" name="q" value="2"> A high level programming language <br> <input type="radio" name="q" value="3"> Taylor Swift </font><br><br>
+<input type="submit" value="Send" name="submit_button" id="plop">
+</form>
 
 </body>
 </html>
