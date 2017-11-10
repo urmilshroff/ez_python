@@ -62,22 +62,22 @@ font
 	color: white ;
 	font-family: 'Montserrat Alternates', sans-serif;
 	font-size: 25px;
-	line-height: 35px ; 
-	
-	
+	line-height: 35px ;
+
+
 }
 
 
 
-@media (max-width: 400px) /* this is the @media query used to optimize the page for mobile */
+@media (max-width: 400px) /* this is the media query used to optimize the page for mobile */
 {
-	
+
 	font
    {
 	font-size: 15px;
-	line-height: 25px ; 
-	
-	
+	line-height: 25px ;
+
+
 	}
 
 }
@@ -91,10 +91,10 @@ font
 <h1> Question 1: </h1>
 <h2> > What is Python? </h2>
 
-<form name="q1" onsubmit="answer_checker(2)">
+<form name="question" onsubmit="answer_checker(2)">
 
-<font > Answer: <br><br> <input type="radio" name="q" value="1"> A snake <br> <input type="radio" name="q" value="2"> A high level programming language <br> <input type="radio" name="q" value="3"> Taylor Swift </font><br><br>
-<input type="submit" value="Send" name="submit_button" id="plop">
+<font > Answer: <br> <br> <input type="radio" name="options" value="1"> A snake <br> <input type="radio" name="options" value="2"> A high level programming language <br> <input type="radio" name="options" value="3"> Taylor Swift </font><br><br>
+<input type="submit" value="Send" name="submit_button">
 </form>
 
 </body>
