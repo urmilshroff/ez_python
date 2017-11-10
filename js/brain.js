@@ -35,12 +35,12 @@ var password=document.account.password;
 function answer_checker(ans)
 {
 
-document.write("Correct");
 if(document.q1.q==ans)
 {
 document.write("Correct");
-
 return true;
+}
+
 else
 {
 document.write("Wrong");
