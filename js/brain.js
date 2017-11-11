@@ -3,6 +3,11 @@ function python_org()
 window.open("https://www.python.org");
 }
 
+function init_zero()
+{
+var marks=0;
+}
+
 function execute_online()
 {
 window.open("https://www.tutorialspoint.com/execute_python_online.php");
@@ -32,17 +37,21 @@ var password=document.account.password; //password
 
 }
 
-function answer_checker(ans)
+function answer_checker(input,ans)
+{
+var marks;
+if(marks =
+if(input==ans)
 {
 
-if(document.q1.q==ans)
-{
-document.write(q1.q.value);
-return true;
+;
+window.alert("Correct",marks);
 }
 
 else
 {
-document.write("Wrong");
-return false;
+window.alert("Wrong");
+marks=marks-1;
+}
+window.alert(marks);
 }
