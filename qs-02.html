@@ -5,21 +5,20 @@
 
 <head>
 <title> Question 2 </title>
+
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for browser to scale contents according to screen size-->
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/w3.css">
-<link rel="stylesheet" type="text/css" href="css/about.css"> -->
 
 <!--following link to Google APIs-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-orange.min.css">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Inconsolata|Nunito|Quicksand|Rubik">
-
-
 
 <script src="js/brain.js"> </script>
 
+<!--following link to Google APIs-->
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"> </script>
 
 <style>
 
@@ -33,7 +32,7 @@ line-height: 150%;
 h2 /* for subtitles & questions */
 {
 font-family: arvo;
-font-size: 30px;
+font-size: 40px;
 line-height: 150%;
 }
 
@@ -68,23 +67,15 @@ padding: 20px;
 <h1> Question 2: </h1>
 <h2> > Which of the following is correct about Python? </h2>
 
-<form name="question" >
+<center> <form name="question">
 
-<font > Answers: <br><br> <input type="radio" name="options" value="1"> It supports functional and structured programming methods as well as OOP
+<font> Answer: <br> <br> <input type="radio" name="options" value="1"> It supports functional and structured programming methods as well as OOP <br> <input type="radio" name="options" value="2"> It can be used as a scripting language or can be compiled to byte-code for building large applications <br> <input type="radio" name="options" value="3"> It provides very high-level dynamic data types and supports dynamic type checking <br> <input type="radio" name="options" value="4"> All of the above </font>
 
- <br><br>
- <input type="radio" name="options" value="2"> It can be used as a scripting language or can be compiled to byte-code for building large applications.
- <br><br><input type="radio" name="options" value="3"> It provides very high-level dynamic data types and supports dynamic type checking.
-<br><br><input type="radio" name="options" value="4"> All of the above.
-</font><br><br>
+<br> <br> <align left> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="answer_checker(options.value,4)"> <i class="material-icons"> spellcheck </i> <font color=#ECEFF1> </font> </button>
 
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" onclick="answer_checker(options.value,4)"> <font color=#ECEFF1> CHECK </font></button>
-</form>
+</form> </center>
 
-<center> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary"  onclick="window.location.href='qs-03.html'"> <font color=#ECEFF1> NEXT </font> </center> </button>
-
-
-<font>
+<br> <center> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='qs-03.html'"> <i class="material-icons"> redo </i> <font color=#ECEFF1> </font> </center> </button> <font>
 
 </body>
 </html>

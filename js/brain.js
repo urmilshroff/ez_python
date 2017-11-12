@@ -41,10 +41,10 @@ function answer_checker(input,ans)
 {
 if(input==ans)
 {
-window.alert("Correct");
+window.alert("Yay, you are correct!");
 }
 else
 {
-window.alert("Wrong");
+window.alert("Sorry, that's the wrong answer!");
 }
 }

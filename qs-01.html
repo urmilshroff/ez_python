@@ -32,7 +32,7 @@ line-height: 150%;
 h2 /* for subtitles & questions */
 {
 font-family: arvo;
-font-size: 30px;
+font-size: 40px;
 line-height: 150%;
 }
 
@@ -64,16 +64,22 @@ padding: 20px;
 
 <body>
 
+<br> <br> <div style="width: auto" id="loading" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"> </div> </center>
+
 <h1> Question 1: </h1>
 <h2> > What is Python? </h2>
 
-<form name="question">
+<center> <form name="question">
 
-<font> Answer: <br> <br> <input type="radio" name="options" value="1"> A snake <br> <input type="radio" name="options" value="2"> A high level programming language <br> <input type="radio" name="options" value="3"> A video game </font><br><br>
-<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent" onclick="answer_checker(options.value,2)"> <font color=#ECEFF1> CHECK </font></button>
-</form>
+<font> Answer: <br> <br> <input type="radio" name="options" value="1"> A snake <br> <input type="radio" name="options" value="2"> A high level programming language <br> <input type="radio" name="options" value="3"> A video game </font>
 
-<center> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='qs-02.html'"> <font color=#ECEFF1> NEXT </font> </center> </button>
+<br> <br> <align left> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="answer_checker(options.value,2)"> <i class="material-icons"> spellcheck </i> <font color=#ECEFF1> </font> </button>
+
+</form> </center>
+
+<br> <center> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='qs-02.html'"> <i class="material-icons"> redo </i> <font color=#ECEFF1> </font> </center> </button>
+
+<br> <br> <div style="width: auto" id="loading" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"> </div> </center>
 
 </body>
 </html>
