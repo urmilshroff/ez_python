@@ -9,17 +9,16 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for browser to scale contents according to screen size-->
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/w3.css">
-<link rel="stylesheet" type="text/css" href="css/about.css"> -->
 
 <!--following link to Google APIs-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-orange.min.css">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Inconsolata|Nunito|Quicksand|Rubik">
-
 
 <script src="js/brain.js"> </script>
 
+<!--following link to Google APIs-->
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"> </script>
 
 <style>
 
@@ -33,7 +32,7 @@ line-height: 150%;
 h2 /* for subtitles & questions */
 {
 font-family: arvo;
-font-size: 30px;
+font-size: 40px;
 line-height: 150%;
 }
 
@@ -63,29 +62,22 @@ padding: 20px;
 
 </head>
 
-
 <body>
 
+<br> <br> <div style="width: auto" id="loading" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"> </div> </center>
+
 <h1> Question 4: </h1>
-<h2> > Which of the following function of dictionary gets all the values from the dictionary?
- </h2>
+<h2> > Which of the following functions of dictionary gets all the values from the dictionary? </h2>
 
-<form name="question" >
+<center> <form name="question">
 
-<font > Answers: <br><br> <input type="radio" name="q" value="1">
-A - getvalues()
- <br> <input type="radio" name="q" value="2">
+<font> Answer: <br> <br> <input type="radio" name="options" value="1"> getvalues() <br> <input type="radio" name="options" value="2"> value() <br> <input type="radio" name="options" value="3"> values() <br> <input type="radio" name="options" value="4"> None of the above </font>
 
-B - value()
+<br> <br> <align left> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="answer_checker(options.value,1)"> <i class="material-icons"> spellcheck </i> <font color=#ECEFF1> </font> </button> </form>
 
- <br> <input type="radio" name="q" value="3">
+<br> <center> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='qs-05.html'"> <i class="material-icons"> redo </i> <font color=#ECEFF1> </center> </button> <font>
 
-C - values()
-<br> <input type="radio" name="q" value="4">
-D - None of the above.
+<br> <br> <div style="width: auto" id="loading" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"> </div> </center>
 
-</font><br><br>
-<input type="button" onclick="answer_checker(options.value,2)" value="CHECK" name="submit_button">
-</form>
 </body>
 </html>
