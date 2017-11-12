@@ -41,7 +41,7 @@ h3,font /* for regular text */
 {
 font-family: inconsolata;
 color: #ECEFF1;
-font-size: px;
+font-size: 30px;
 line-height: 80%;
 }
 
@@ -72,19 +72,21 @@ padding: 20px;
 
  </h2>
 
-<form name="q1" onsubmit="answer_checker(2)">
+<form name="q1" >
 
 <font > Answers: <br><br> <input type="radio" name="q" value="1">
 A - True
- <br> <input type="radio" name="q" value="2">
+ <br><br> <input type="radio" name="q" value="2">
 B - False
- <br> <input type="radio" name="q" value="3">
+ <br><br> <input type="radio" name="q" value="3">
 C - Machine dependent
-<br> <input type="radio" name="q" value="4">
+<br> <br><input type="radio" name="q" value="4">
 D - Error
 
 </font><br><br>
-<input type="submit" value="Send" name="submit_button" id="answer">
+<center>
+<input type="button" onclick="answer_checker(options.value,2)" value="CHECK" name="submit_button">
+
 </form>
 </body>
 </html>

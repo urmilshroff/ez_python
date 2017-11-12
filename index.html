@@ -8,20 +8,11 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for browser to scale contents according to screen size-->
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/w3.css">
-<link rel="stylesheet" type="text/css" href="css/about.css"> -->
 
 <!--following link to Google APIs-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-orange.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Inconsolata|Nunito|Quicksand|Rubik">
-
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/manifest.json">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="theme-color" content="#00c2ff">
 
 <script src="js/brain.js"> </script>
 
@@ -44,11 +35,20 @@ font-size: 40px;
 line-height: 150%;
 }
 
-h3 /* for regular text */
+h3,font /* for regular text */
 {
 font-family: inconsolata;
 font-size: 20px;
 line-height: 80%;
+}
+
+form
+{
+display: inline-block;
+margin-left: 50px;
+margin-right: auto;
+text-align: left;
+padding: 20px;
 }
 
 @media (max-width: 400px) /* this is the @media query used to optimize the page for mobile */
@@ -72,7 +72,7 @@ line-height: 80%;
 
 <h3> So, we created this website to teach you how to learn Python - the 'EZ' way! </h3>
 
-<center> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='account_creation.html'"> <font color=#ECEFF1> START </font> </center> </button>
+<center> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='brief.html'"> <font color=#ECEFF1> START </font> </center> </button>
 
 </body>
 </html>

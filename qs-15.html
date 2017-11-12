@@ -41,7 +41,7 @@ h3,font /* for regular text */
 {
 font-family: inconsolata;
 color: #ECEFF1;
-font-size: px;
+font-size: 26px;
 line-height: 80%;
 }
 
@@ -72,17 +72,20 @@ padding: 20px;
 
 <form name="q1" onsubmit="answer_checker(3)">
 
-<font > Answers: <br><br> <input type="radio" name="q" value="1">
+<font> Answers: <br><br> <input type="radio" name="q" value="1">
 A - It supports automatic garbage collection.
- <br> <input type="radio" name="q" value="2">
+ <br><br><input type="radio" name="q" value="2">
 B - It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java
- <br> <input type="radio" name="q" value="3">
+ <br><br><input type="radio" name="q" value="3">
 C - Both of the above
-<br> <input type="radio" name="q" value="4">
+<br><br><input type="radio" name="q" value="4">
 D - None of the above
 
 </font><br><br>
-<input type="submit" value="Send" name="submit_button" id="answer">
+<button class="button"  onclick="answer_checker(options.value,1)" value="CHECK" name="submit_button">Check</button>
+
+
+<center> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='qs-13.html'"> <font color=#ECEFF1> NEXT </font> </center> </button>
 </form>
 </body>
 </html>

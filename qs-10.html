@@ -41,7 +41,7 @@ h3,font /* for regular text */
 {
 font-family: inconsolata;
 color: #ECEFF1;
-font-size: px;
+font-size: 25px;
 line-height: 80%;
 }
 
@@ -72,22 +72,22 @@ padding: 20px;
 
  </h2>
 
-<form name="q1" onsubmit="answer_checker(1)">
+<form name="q1" >
 
 <font > Answers: <br><br> <input type="radio" name="q" value="1">
 A - re
 
- <br> <input type="radio" name="q" value="2">
+ <br><br> <input type="radio" name="q" value="2">
 B - regex
 
- <br> <input type="radio" name="q" value="3">
+ <br><br> <input type="radio" name="q" value="3">
 C - pyregex
 
-<br> <input type="radio" name="q" value="4">
+<br><br> <input type="radio" name="q" value="4">
 D - None of the above
 
 </font><br><br>
-<input type="submit" value="Send" name="submit_button" id="answer">
+<input type="button" onclick="answer_checker(options.value,1)" value="CHECK" name="submit_button">
 </form>
 </body>
 </html>

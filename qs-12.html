@@ -41,9 +41,23 @@ h3,font /* for regular text */
 {
 font-family: inconsolata;
 color: #ECEFF1;
-font-size: px;
+font-size: 30px;
 line-height: 80%;
 }
+
+.button {
+	background-color: #e7e7e7; color: black; /* Green */
+	border: none;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 45;
+	cursor: pointer;
+}
+
 
 form
 {
@@ -71,19 +85,22 @@ padding: 20px;
 
  </h2>
 
-<form name="q1" onsubmit="answer_checker(1)">
+<form name="q1">
 
 <font > Answers: <br><br> <input type="radio" name="q" value="1">
 A - Stub
- <br> <input type="radio" name="q" value="2">
+ <br> <br><input type="radio" name="q" value="2">
 B - Function
- <br> <input type="radio" name="q" value="3">
+ <br><br><input type="radio" name="q" value="3">
 C - A function developed using bottom-up approach
-<br> <input type="radio" name="q" value="4">
+<br><br><input type="radio" name="q" value="4">
 D - A function developed using top-down approach
 
 </font><br><br>
-<input type="submit" value="Send" name="submit_button" id="answer">
+<button class="button"  onclick="answer_checker(options.value,1)" value="CHECK" name="submit_button">Check</button>
+
+
+<center> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='qs-13.html'"> <font color=#ECEFF1> NEXT </font> </center> </button>
 </form>
 </body>
 </html>
