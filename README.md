@@ -1,3 +1,16 @@
 # EZ Python
-FWT group project for B. Tech. Intg. Sem V Comps; done by Urmil Shroff (C048), Ilesha Sawarkar (C038), and Aakash Sardesai (C037).
 A website to learn Python, the "EZ" way!
+
+# Bibliography:
+Following are the APIs and documentation/references we used to make the website:
+• Material Design Colour Pallete: https://material.io/guidelines/style/color.html#color-color-palette
+• MDL Components: https://getmdl.io/components/index.html
+
+# Credits:
+Hand </> with <3 by:
+• Urmil Shroff (C048)
+• Ilesha Sawarkar (C038)
+• Aakash Sardesai (C037)
+
+# Special thanks:
+• Timothy Langer, for helping with GitHub.
