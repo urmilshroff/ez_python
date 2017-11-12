@@ -1,10 +1,10 @@
-<!-- Quiz question number 3 -->
+<!-- Quiz question number 4 -->
 
 <!doctype html>
 <html>
 
 <head>
-<title> Question 3 </title>
+<title> Question 4 </title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for browser to scale contents according to screen size-->
 
@@ -18,7 +18,7 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Inconsolata|Nunito|Quicksand|Rubik">
 
 
-<script src="brains.js"> </script>
+<script src="js/brain.js"> </script>
 
 
 <style>
@@ -37,51 +37,32 @@ font-size: 30px;
 line-height: 150%;
 }
 
-h3 /* for regular text */
+h3,font /* for regular text */
 {
 font-family: inconsolata;
+color: #ECEFF1;
 font-size: 30px;
 line-height: 80%;
 }
 
 form
 {
-	 display: inline-block;
-		margin-left: 50px;
-		margin-right: auto;
-		text-align: left;
-		padding: 20px;
-		;
+display: inline-block;
+margin-left: 50px;
+margin-right: auto;
+text-align: left;
+padding: 20px;
 }
-
-font
-{
-	color: white ;
-	font-family :Lucida Bright, Georgia, serif;
-	font-size: 20px;
-	line-height: 35px ; 
-	
-	
-}
-
-
 
 @media (max-width: 400px) /* this is the @media query used to optimize the page for mobile */
 {
-	
-	font
-   {
-	font-size: 15px;
-	line-height: 25px ; 
-	
-	
-	}
 
 }
 
 </style>
 
 </head>
+
 
 <body>
 
@@ -90,24 +71,19 @@ font
 
  </h2>
 
-<form name="q1" onsubmit="answer_checker(1)">
+<form name="question" >
 
 <font > Answers: <br><br> <input type="radio" name="q" value="1"> A - [ 'abcd', 786 , 2.23, 'john', 70.2 ]
- <br> <input type="radio" name="q" value="2"> 
+ <br> <input type="radio" name="q" value="2">
 B - list
 
- <br> <input type="radio" name="q" value="3"> 
+ <br> <input type="radio" name="q" value="3">
 C - Error
-<br> <input type="radio" name="q" value="4"> 
+<br> <input type="radio" name="q" value="4">
 D - None of the above.
 
 </font><br><br>
-<input type="submit" value="Send" name="submit_button" id="answer">
+<input type="button" onclick="answer_checker(options.value,2)" value="CHECK" name="submit_button">
 </form>
 </body>
 </html>
-
-
-
-
-

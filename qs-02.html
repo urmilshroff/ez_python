@@ -5,7 +5,6 @@
 
 <head>
 <title> Question 2 </title>
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for browser to scale contents according to screen size-->
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -18,7 +17,8 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Inconsolata|Nunito|Quicksand|Rubik">
 
 
-<script src="brains.js"> </script>
+
+<script src="js/brain.js"> </script>
 
 
 <style>
@@ -33,13 +33,14 @@ line-height: 150%;
 h2 /* for subtitles & questions */
 {
 font-family: arvo;
-font-size: 40px;
+font-size: 30px;
 line-height: 150%;
 }
 
-h3 /* for regular text */
+h3,font /* for regular text */
 {
 font-family: inconsolata;
+color: #ECEFF1;
 font-size: 30px;
 line-height: 80%;
 }
@@ -53,20 +54,8 @@ text-align: left;
 padding: 20px;
 }
 
-font
-{
-color: white ;
-font-family :Lucida Bright, Georgia, serif;
-font-size: 20px;
-line-height: 35px;
-}
-
-
-
 @media (max-width: 400px) /* this is the @media query used to optimize the page for mobile */
 {
-
-
 
 }
 
@@ -79,34 +68,23 @@ line-height: 35px;
 <h1> Question 2: </h1>
 <h2> > Which of the following is correct about Python? </h2>
 
-<form name="q1" onsubmit="answer_checker(4)">
+<form name="question" >
 
-<font > Answers: <br><br> <input type="radio" name="q" value="1"> A - It supports functional and structured programming methods as well as OOP.
+<font > Answers: <br><br> <input type="radio" name="options" value="1"> A - It supports functional and structured programming methods as well as OOP.
 
- <br> <input type="radio" name="q" value="2">
+ <br><br>
+ <input type="radio" name="options" value="2">
 B - It can be used as a scripting language or can be compiled to byte-code for building large applications.
- <br> <input type="radio" name="q" value="3">
+ <br><br><input type="radio" name="options" value="3">
 C - It provides very high-level dynamic data types and supports dynamic type checking.
-<br> <input type="radio" name="q" value="4">
+<br><br><input type="radio" name="options" value="4">
 D - All of the above.
 </font><br><br>
-<input type="submit" value="Send" name="submit_button" id="answer">
+<input type="button" onclick="answer_checker(options.value,2)" value="CHECK" name="submit_button">
 </form>
 
-<!-- <font color="#CFD8DC">
-<p> <p> <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-1">
-<input type="radio" id="option-1" class="mdl-radio__button" name="options" value="1" checked>
-<span class="mdl-radio__label"> A high level programming language </span>
-</label>
 
-<p> <p> <label class="mdl-radio mdl-js-radio mdl-js-ripple-effect" for="option-2">
-<input type="radio" id="option-2" class="mdl-radio__button" name="options" value="2">
-<span class="mdl-radio__label"> A scary slimy snake </span>
-</label>
-
-<center> <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='01.html'"> <font color="#ECEFF1"> Check </font> </center> </button>
-
-<font> -->
+<font>
 
 </body>
 </html>

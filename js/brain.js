@@ -39,19 +39,12 @@ var password=document.account.password; //password
 
 function answer_checker(input,ans)
 {
-var marks;
-if(marks =
 if(input==ans)
 {
-
-;
-window.alert("Correct",marks);
+window.alert("Correct");
 }
-
 else
 {
 window.alert("Wrong");
-marks=marks-1;
 }
-window.alert(marks);
 }
