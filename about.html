@@ -5,9 +5,9 @@
 
 <title> About </title>
 
-<!-- <link rel="stylesheet" type="text/css" href="css/style.css">
-<link rel="stylesheet" type="text/css" href="css/w3.css"> -->
-<link rel="stylesheet" type="text/css" href="css/about.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for browser to scale contents according to screen size-->
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
 
 <!--following link to Google APIs-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -35,11 +35,20 @@ font-size: 40px;
 line-height: 150%;
 }
 
-h3 /* for regular text */
+h3,font /* for regular text */
 {
 font-family: inconsolata;
 font-size: 20px;
 line-height: 80%;
+}
+
+form
+{
+display: inline-block;
+margin-left: 50px;
+margin-right: auto;
+text-align: left;
+padding: 20px;
 }
 
 @media (max-width: 400px) /* this is the @media query used to optimize the page for mobile */

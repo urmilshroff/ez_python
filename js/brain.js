@@ -26,15 +26,33 @@ document.write("A button was clicked");
 function account_validator() //validates login page
 {
 
-document.write("If you're seeing this the first time you clicked the button (AFTER INPUTTING YOUR NAME), then let me know!"); //test to check if button works
-document.write(fname);
-
-var fname=document.account.fname; //first name
+var fname=document.formname.fname.value; //first name
 var sname=document.account.sname; //last name
 var username=document.account.username; //username
 var email=document.account.email; //email
 var password=document.account.password; //password
 
+if(fname=="")
+{
+document.write("Please enter your first name!");
+fname.focus();
+return false;
+}
+
+if(sname.value=="")
+{
+window.alert("Please enter your surname!");
+sname.focus();
+return false;
+}
+
+if(username.value=="")
+{
+window.alert("Please enter your username!");
+username.focus();
+return false;
+}
+return true;
 }
 
 function answer_checker(input,ans)

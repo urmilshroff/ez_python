@@ -4,22 +4,20 @@
 <html>
 
 <head>
-<title> Question 5 </title>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--for browser to scale contents according to screen size-->
 
 <link rel="stylesheet" type="text/css" href="css/style.css">
-<!-- <link rel="stylesheet" type="text/css" href="css/w3.css">
-<link rel="stylesheet" type="text/css" href="css/about.css"> -->
 
 <!--following link to Google APIs-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-orange.min.css">
+<link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.green-blue.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo|Inconsolata|Nunito|Quicksand|Rubik">
-
 
 <script src="js/brain.js"> </script>
 
+<!--following link to Google APIs-->
+<script defer src="https://code.getmdl.io/1.3.0/material.min.js"> </script>
 
 <style>
 
@@ -33,7 +31,7 @@ line-height: 150%;
 h2 /* for subtitles & questions */
 {
 font-family: arvo;
-font-size: 30px;
+font-size: 40px;
 line-height: 150%;
 }
 
@@ -63,32 +61,23 @@ padding: 20px;
 
 </head>
 
-
 <body>
 
+<br> <br> <div style="width: auto" id="loading" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"> </div> </center>
+
 <h1> Question 5: </h1>
-<h2> > Which of the following function converts an integer to an unicode character in python?
+<h2> > Which of the following function converts an integer to an unicode character in python? </h2>
+<center> <form name="question">
 
- </h2>
-<form name="question" >
+<font> Options: <br> <br> <input type="radio" name="options" value="1"> oct(x) <br> <input type="radio" name="options" value="2"> ord(x)<br> <input type="radio" name="options" value="3"> hex(x)<br> <input type="radio" name="options" value="4"> chr(x) </font>
 
-<font > Answers: <br><br> <input type="radio" name="q" value="1"> A - unichr(x)
+<br> <br> <align left> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--colored" onclick="answer_checker(options.value,4)"> <i class="material-icons"> spellcheck </i> <font color=#ECEFF1> </font> </button>
 
- <br> <input type="radio" name="q" value="2">
+</form> </center>
 
-B - ord(x)
+<br> <center> <button class="mdl-button mdl-js-button mdl-button--fab mdl-js-ripple-effect mdl-button--primary" onclick="window.location.href='about.html'"> <i class="material-icons"> redo </i> <font color=#ECEFF1> </font> </center> </button> <font>
 
- <br> <input type="radio" name="q" value="3">
+<br> <br> <div style="width: auto" id="loading" class="mdl-progress mdl-js-progress mdl-progress__indeterminate"> </div> </center>
 
-C - hex(x)
-
-<br> <input type="radio" name="q" value="4">
-
-D - oct(x)
-
-
-</font><br><br>
-<input type="button" onclick="answer_checker(options.value,1)" value="CHECK" name="submit_button">
-</form>
 </body>
 </html>
